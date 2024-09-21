@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('book_management.jpeg'); 
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    height: 70vh;
+}
+
+.form-container, .book-list-container {
+    width: 48%;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-container {
+    margin-right: 2%;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+input[type="text"], input[type="number"] {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.error {
+    color: red;
+    font-size: 0.9em;
+    margin-bottom: 10px;
+}
+
+.button-group {
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    padding-top: 2%;
+}
+
+input[type="submit"], input[type="reset"], input[type="button"] {
+    width: 32%;
+    background-color: #0D6986;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="reset"] {
+    background-color: #dc3545;
+}
+
+input[type="button"] {
+    background-color: #007bff; /* Reset list button color */
+}
+
+input[type="submit"]:hover, input[type="reset"]:hover, input[type="button"]:hover {
+    opacity: 0.9;
+}
+
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #0D6986;
+    color: white;
+}
